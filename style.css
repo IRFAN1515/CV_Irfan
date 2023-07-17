@@ -1,0 +1,350 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-me p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.skills ul,
+.languages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills li,
+.languages li {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.btn-primary:focus {
+  outline: none;
+}
+
+.btn-email {
+  margin-right: 10px;
+}
+
+/* Pengalaman Kerja */
+.experience {
+  margin-bottom: 30px;
+}
+
+.experience h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.experience p {
+  margin-bottom: 1px;
+  color: #555;
+}
+
+.experience p.date {
+  font-size: 12px;
+}
+
+/* Pendidikan */
+.education {
+  margin-bottom: 30px;
+}
+
+.education h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.education p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.contact-info {
+  display: table-row;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-item strong {
+  margin-right: 10px;
+}
+
+.section-divider {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Bagian Logo Email, Call (Whatsapp), dan Instagram */
+.btn-email {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.btn-email:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-email:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.btn-email:focus {
+  outline: none;
+}
+
+.btn-email i {
+  margin-right: 5px;
+}
+
+.btn-call {
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.btn-call:hover {
+  background-color: #1da851;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-call:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.btn-call:focus {
+  outline: none;
+}
+
+.btn-call i {
+  margin-right: 5px;
+}
+
+.btn-instagram {
+  background-color: #c13584;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.btn-instagram:hover {
+  background-color: #ad2e75;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-instagram:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.btn-instagram:focus {
+  outline: none;
+}
+
+.btn-instagram i {
+  margin-right: 5px;
+}
+
+.container {
+  padding: 40px;
+}
+
+/* JARAK TOMBOL EMAIL, WHATSAPP, INSTAGRAM */
+.btn-email {
+  margin-right: 25px;
+}
+
+.btn-call {
+  margin-right: 10px;
+}
+
+.btn-instagram {
+  margin-left: 10px;
+}
+
+/* ANIMASI BERPUTAR LOGO EMAIL, WHATSAPP, INSTAGRAM */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-email i,
+.btn-call i,
+.btn-instagram i {
+  animation: rotate 2s linear infinite;
+}
+
+/* ANIMASI SAAT MEMBUKA PORTOFOLIO */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* UBAH BACKGROUND PORTOFOLIO */
+body {
+  background-image: linear-gradient(to bottom, #160c0c, #4b2222);
+}
+
+
+
+/* EFEK BINTANG JATUH */
+body::before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url("Image/pngwing.com\ \(8\).png"); /* Ganti dengan path gambar bintang Anda */
+  background-repeat: no-repeat;
+  animation: stars-falling 10s linear infinite;
+}
+
+@keyframes stars-falling {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+    
+}
